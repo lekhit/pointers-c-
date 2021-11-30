@@ -16,12 +16,4 @@
  }
  void rect::display(){
    cout<<"area of rect:\n"<<(x*y)<<endl;
- 
- }
- void triangle::get_data(){
-   cout<<"enter data for triangle\n";
- cout<<"enter a:\n";
-   cin>>x;
-   cout<<"enter b:\n";
-   cin>>y;
  }

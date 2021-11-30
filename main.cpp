@@ -7,8 +7,10 @@ shape *s[2];
 s[0]=new triangle;
 s[1]=new rect;
 for (auto i:s){
+  cout<<typeid(*i).name()<<endl;
 (*i).get_data();
-(*i).display();}
+(*i).display();
+}
 
 
 
